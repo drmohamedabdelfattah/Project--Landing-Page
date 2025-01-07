@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #1f2937;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  width: 100%;
+  color: white;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.headerlogo {
+  padding: 10px;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.links {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  width: 50%;
+  color: #e5e7eb;
+  size: 18px;
+}
+
+header {
+  background-color: #1f2937;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.loklok {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  display: flex; /* Make it a flex container */
+  justify-content: center; /* Horizontally center the image */
+  align-items: center; /* Vertically center the image */
+  height: 100%; /* Ensure it takes up the full height of its container */
+padding-right: 15px;
+}
+
+.img img {
+  width: 100%; /* Resize the image to fill the container */
+  height: auto; /* Maintain the aspect ratio */
+  max-width: 300px; /* Limit the width of the image */
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row; /* Arrange the boxes in a row */
+  justify-content: space-between; /* Space out the boxes evenly */
+  align-items: center; /* Align the text and box vertically */
+  width: 80%; /* Optional: control the width of the card container */
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column; /* Stack the box and text vertically */
+  align-items: center; /* Center them horizontally */
+}
+
+.text {
+  color: black;
+  margin-top: 10px;
+  color: #1f2937;
+}
+.box {
+  border: solid;
+  height: 100px;
+  width: 200px;
+  color:#3882f6 ;
+  border-radius: 15px;
+}
+
+.quote1 {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: ;
+}
+
+.quote2{ font-size: 36px;
+color: #1f2937;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.thor {
+  align-self: end;
+}
+
+.banner {
+  display: flex;
+  background-color: #3882f6;
+  border-radius: 15px;
+  color: #f9faf8;
+}
+
+.words {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  
+    background-color: #1f29371f;
+    color: #e5e7eb;
+  
+  top: 80px;
+}
+
+.h2{font-size: 36px;
+color: #1f2937;
+font: weight 900px; ;}
+
+#p { font-size: 24px;
+color: #e5e7eb;
+justify-content:center ;}
+
+#h1{font-size: 48px;
+font-weight: 900;
+color: #f9faf8;}
+#button{background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 15px;
+}
+
+
+.h2{size: 36px;
+color: #1f2937;
+font-weight: 900;
+}
+
+.footer{
+  background-color: #1f2937;
+  color:#e5e7eb;
+}
+
