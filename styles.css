@@ -1,160 +1,132 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
 nav {
   background-color: #1f2937;
-  font-family: "Times New Roman", Times, serif;
+  height: 8vh;
   display: flex;
-  width: 100%;
-  color: white;
   justify-content: space-between;
-  height: 30px;
+  width: 100%;
 }
 
 .headerlogo {
-  padding: 10px;
+  margin-top: 20px;
+  margin-left: 175px;
   font-size: 24px;
   color: #f9faf8;
 }
 
 .links {
   display: flex;
-  padding: 10px;
   justify-content: space-between;
-  width: 50%;
-  color: #e5e7eb;
-  size: 18px;
+  gap: 20px;
+  margin-top: 20px;
+  margin-right: 175px;
+  color: #cccfd4;
 }
 
 header {
   background-color: #1f2937;
-  height: 300px;
+  height: 90vh;
   display: flex;
-  justify-content: space-between;
 }
 
 .loklok {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-left: 175px;
+  width: 100%;
+}
+.image {
+  width: auto;
+  height: 150px;
+  margin-right: 175px;
 }
 
-.img {
-  display: flex; /* Make it a flex container */
-  justify-content: center; /* Horizontally center the image */
-  align-items: center; /* Vertically center the image */
-  height: 100%; /* Ensure it takes up the full height of its container */
-padding-right: 15px;
-}
-
-.img img {
-  width: 100%; /* Resize the image to fill the container */
-  height: auto; /* Maintain the aspect ratio */
-  max-width: 300px; /* Limit the width of the image */
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.card {
-  display: flex;
-  flex-direction: row; /* Arrange the boxes in a row */
-  justify-content: space-between; /* Space out the boxes evenly */
-  align-items: center; /* Align the text and box vertically */
-  width: 80%; /* Optional: control the width of the card container */
-}
-
-.box-container {
-  display: flex;
-  flex-direction: column; /* Stack the box and text vertically */
-  align-items: center; /* Center them horizontally */
-}
-
-.text {
-  color: black;
-  margin-top: 10px;
-  color: #1f2937;
-}
-.box {
-  border: solid;
-  height: 100px;
-  width: 200px;
-  color:#3882f6 ;
-  border-radius: 15px;
-}
-
-.quote1 {
-  background-color: #e5e7eb;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: ;
-}
-
-.quote2{ font-size: 36px;
-color: #1f2937;
-display: flex;
-justify-content: center;
-align-items: center;}
-
-.thor {
-  align-self: end;
-}
-
-.banner {
-  display: flex;
-  background-color: #3882f6;
-  border-radius: 15px;
+#main {
+  font-size: 48px;
+  font-weight: 900;
   color: #f9faf8;
 }
 
-.words {
+#secondry {
+  font-size: 24px;
+  color: #e5e7eb;
+}
+#signup {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 25px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  width: auto;
 }
 
-.footer {
+.button {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  width: 100%;
+  justify-content: end;
+  width: 100%;
+}
+
+
+section{ margin-left: 175px;
+    margin-right: 175px;
+}
+.boxes {
+  background-color: aqua;
+  height: 50px;
+  width: 50px;
+}
+
+#h2 {
   display: flex;
   justify-content: center;
-  position: relative;
-  
-    background-color: #1f29371f;
-    color: #e5e7eb;
-  
-  top: 80px;
 }
 
-.h2{font-size: 36px;
-color: #1f2937;
-font: weight 900px; ;}
-
-#p { font-size: 24px;
-color: #e5e7eb;
-justify-content:center ;}
-
-#h1{font-size: 48px;
-font-weight: 900;
-color: #f9faf8;}
-#button{background-color: #3882f6;
-  color: #e5e7eb;
-  border-radius: 15px;
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
-
-.h2{size: 36px;
-color: #1f2937;
-font-weight: 900;
+.row {
+  display: flex;
+  flex-direction: row;
 }
+.box{
+height: 70px;
+width: 80px;
+border: solid #3882f6;
+border-radius: 15px;}
 
-.footer{
-  background-color: #1f2937;
-  color:#e5e7eb;
+
+.quote{display: flex;
+flex-direction: column;
+
+    background-color: #e5e7eb;
 }
+.text{
+flex-direction: row;
+justify-content: end;}
 
+.sayer{display: flex;
+justify-content: end;}
+
+
+footer{ background-color: #1f2937;
+display: flex;
+justify-content: center;}
