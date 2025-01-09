@@ -130,3 +130,11 @@ justify-content: end;}
 footer{ background-color: #1f2937;
 display: flex;
 justify-content: center;}
+
+
+.banner{background-color: #3882f6;
+display: flex;}
+
+.coll{display:flex;
+    flex-direction: column;
+}
